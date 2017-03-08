@@ -7,12 +7,12 @@ public class AppTest
 	@Test
 	public void testApp()
     {
-        assertEquals(0,new App().calculateSomething());
+        assertEquals(0,new App().calculateSomething() );
     }
 	@Test
 	public void testPrintHelloWorld() {
 
-		assertEquals(App.getHelloWorld(), "Hello World ");
+		assertEquals(App.getHelloWorld(), "Hello World");
 
 	}
 }
