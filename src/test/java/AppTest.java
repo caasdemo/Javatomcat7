@@ -7,7 +7,7 @@ public class AppTest
 	@Test
 	public void testApp()
     {
-        assertEquals(1,new App().calculateSomething() );
+        assertEquals(0,new App().calculateSomething() );
     }
 	@Test
 	public void testPrintHelloWorld() {
